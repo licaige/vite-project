@@ -14,6 +14,7 @@ import { GET_TOKEN, REMOVE_TOKEN, SET_TOKEN } from '@/utils/token'
 import { anyRoute, asnycRoute, constantRoute } from '@/router/routes'
 
 //引入深拷贝方法
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-expect-error
 import cloneDeep from 'lodash/cloneDeep'
 import router from '@/router'
